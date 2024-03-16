@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Oregano");
+@import '~@flaticon/flaticon-uicons/css/all/all';
+
+@font-face {
+    font-family: musicly;
+    src: url('../../../../public/fonts/fa-brands-400.ttf');
+}
+.text-oregano {
+    font-family: "Oregano";
+}
+.text-musicly {
+    font-family: musicly;
+}

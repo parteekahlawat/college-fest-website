@@ -1,0 +1,8 @@
+@font-face {
+    font-family: musicly;
+    src: url("../../../public/fonts/fa-brands-400.ttf");
+}
+
+.font-family-bold {
+    font-family: musicly;
+}

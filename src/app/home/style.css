@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Oregano");
+font-face {
+    font-family: fontBold;
+    src: url("../../../public/fonts/fa-solid-900.ttf");
+}
+
+#font-bold {
+    font-family: fontBold;
+    background: gradient(
+        180deg,
+        #181818 0%,
+        #331c3c 25%,
+        #093f35 75%,
+        #181818 100%
+    );
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+.fade-in.visible {
+    opacity: 1;
+}
+.text-oregano {
+    font-family: "Oregano";
+}
+
+.artist-title {
+    background: -webkit-linear-gradient(90deg, #ae237d, #b87e23);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

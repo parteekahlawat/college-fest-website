@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import '~@flaticon/flaticon-uicons/css/all/all';
+
+@font-face {
+    font-family: musicly;
+    src: url('../../public/fonts/fa-brands-400.ttf');
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+* {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+:root {
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 214, 219, 220;
+    --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --foreground-rgb: 255, 255, 255;
+        --background-start-rgb: 0, 0, 0;
+        --background-end-rgb: 0, 0, 0;
+    }
+}
+
+.bodyContainer {
+    user-select: none;
+    color: rgb(var(--foreground-rgb));
+    background: linear-gradient(
+            to bottom,
+            transparent,
+            rgb(var(--background-end-rgb))
+        )
+        rgb(var(--background-start-rgb));
+}
+
+#header {
+    font-family: musicly;
+}
+
+.titleFamily {
+    font-family: musicly;
+}
+
+@layer utilities {
+    .text-balance {
+        text-wrap: balance;
+    }
+}
